@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 2rem;
+  background-color: #000;
+  color: #fff;
+}
+
+span {
+  display: inline-flex;
+  align-items: center;
+  color: brown;
+}
+
+span::after {
+  content: "";
+  margin-left: 5px;
+  height: 60px;
+  width: 3px;
+  background-color: brown;
+}
